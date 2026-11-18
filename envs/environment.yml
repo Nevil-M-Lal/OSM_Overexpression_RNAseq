@@ -1,0 +1,30 @@
+name: rnaseq
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core languages
+  - python=3.12.15
+  - r-base=4.4.3
+
+  # SRA retrieval and FASTQ preprocessing
+  - sra-tools=3.4.1
+  - fastp=1.4.0
+  - fastqc=0.13.0
+  - multiqc=1.35
+
+  # Alignment and quantification
+  - hisat2=2.2.3
+  - samtools=1.24
+  - subread=2.1.1
+
+  # Alignment quality assessment
+  - rseqc=5.0.5
+
+  # Differential expression and annotation
+  - bioconductor-deseq2=1.46.0
+  - bioconductor-annotationdbi=1.68.0
+  - bioconductor-org.hs.eg.db=3.20.0

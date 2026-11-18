@@ -1,0 +1,15 @@
+Status	results/alignment/OSM_1.sorted.bam	results/alignment/OSM_2.sorted.bam	results/alignment/OSM_3.sorted.bam	results/alignment/Control_1.sorted.bam	results/alignment/Control_2.sorted.bam	results/alignment/Control_3.sorted.bam
+Assigned	16874216	16553111	17534930	17215207	17980166	18671327
+Unassigned_Unmapped	2029061	1939585	2050352	1389219	1500996	1582631
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	3320077	2621399	2884269	2588148	2450928	2908722
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	2208906	2439497	2107168	2498797	2881327	2136604
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	1760389	1825761	1802393	1758149	1957411	1946490

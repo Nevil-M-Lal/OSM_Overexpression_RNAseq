@@ -1,0 +1,7 @@
+sample_id	run_accession	condition
+OSM_1	SRR41141592	OSM_overexpression
+OSM_2	SRR41141593	OSM_overexpression
+OSM_3	SRR41141594	OSM_overexpression
+Control_1	SRR41141595	Control
+Control_2	SRR41141596	Control
+Control_3	SRR41141597	Control
