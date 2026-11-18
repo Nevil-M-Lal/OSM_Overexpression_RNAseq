@@ -118,25 +118,62 @@ OSM_Overexpression_RNAseq/
 ├── results/
 │   ├── alignment/
 │   │   └── qc/
+│   │       ├── Control_1.flagstat.txt
+│   │       ├── Control_2.flagstat.txt
+│   │       ├── Control_3.flagstat.txt
+│   │       ├── OSM_1.flagstat.txt
+│   │       ├── OSM_2.flagstat.txt
+│   │       └── OSM_3.flagstat.txt
 │   ├── counts/
+│   │   ├── gene_counts.txt.gz
+│   │   └── gene_counts.txt.summary
 │   ├── deseq2/
-│   │   └── plots/
+│   │   ├── DESeq2_OSM_vs_Control.csv
+│   │   ├── DESeq2_dataset.rds
+│   │   ├── DESeq2_summary.txt
+│   │   ├── normalized_counts.csv
+│   │   ├── plots/
+│   │   │   ├── DEG_heatmap.png
+│   │   │   ├── MA_plot.png
+│   │   │   ├── PCA.png
+│   │   │   ├── sample_correlation_heatmap.png
+│   │   │   ├── sessionInfo.txt
+│   │   │   └── volcano_plot.png
+│   │   ├── sessionInfo.txt
+│   │   ├── significant_DEGs_padj05.csv
+│   │   └── significant_DEGs_padj05_lfc1.csv
 │   ├── enrichr/
-│   │   ├── UP/
-│   │   │   ├── UP_Enrichment_Results.xlsx
-│   │   │   └── enrichment plots
-│   │   └── DOWN/
-│   │       ├── DOWN_Enrichment_Results.xlsx
-│   │       └── enrichment plots
+│   │   ├── DOWN/
+│   │   │   ├── DOWN_Enrichment_Results.xlsx
+│   │   │   ├── DOWN_GO_BP_2026_bar.png
+│   │   │   ├── DOWN_GO_CC_2026_bar.png
+│   │   │   ├── DOWN_GO_MF_2026_bar.png
+│   │   │   ├── DOWN_KEGG_2026_bar.png
+│   │   │   └── DOWN_Reactome_2024_bar.png
+│   │   └── UP/
+│   │       ├── UP_Enrichment_Results.xlsx
+│   │       ├── UP_GO_BP_2026_bar.png
+│   │       ├── UP_GO_CC_2026_bar.png
+│   │       ├── UP_GO_MF_2026_bar.png
+│   │       ├── UP_KEGG_2026_bar.png
+│   │       └── UP_Reactome_2024_bar.png
 │   ├── fastp/
+│   │   ├── SRR41141592_fastp.html
+│   │   ├── SRR41141593_fastp.html
+│   │   ├── SRR41141594_fastp.html
+│   │   ├── SRR41141595_fastp.html
+│   │   ├── SRR41141596_fastp.html
+│   │   └── SRR41141597_fastp.html
 │   └── qc/
 │       ├── multiqc_raw/
+│       │   └── multiqc_report.html
 │       └── multiqc_trimmed/
+│           └── multiqc_report.html
 └── scripts/
-    ├── preprocessing.sh
-    ├── gtf_to_bed12.py
     ├── deseq2_analysis.R
-    └── deseq2_visualization.R
+    ├── deseq2_visualization.R
+    ├── gtf_to_bed12.py
+    └── preprocessing.sh
 ```
 
 ## Scripts
